@@ -16,7 +16,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-export default function SignUp() {
+export default function SignIn() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -106,7 +106,7 @@ export default function SignUp() {
               {loading ? "Signing In..." : "Sign In"}
             </Button>
             <p className="text-center text-sm text-gray-600">
-              Don't have an account?{" "}
+              Don not have an account?{" "}
               <Link
                 href="/sign-up"
                 className="font-medium text-primary hover:underline"

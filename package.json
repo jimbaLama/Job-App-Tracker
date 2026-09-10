@@ -38,8 +38,5 @@
     "tailwindcss": "^4",
     "tsx": "^4.23.13",
     "typescript": "^5"
-  },
-  "overrides": {
-    "mongodb": "7.6.0"
   }
 }

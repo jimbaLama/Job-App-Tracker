@@ -1,7 +1,7 @@
 import { betterAuth } from "better-auth";
 import { mongodbAdapter } from "better-auth/adapters/mongodb";
 import { MongoClient } from "mongodb";
-import { redirect } from "next/dist/server/api-utils";
+import { redirect } from "next/navigation";
 import { initializeUserBoard } from "../init-user-board";
 import { headers } from "next/headers";
 
